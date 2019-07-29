@@ -20,7 +20,6 @@ public class ControllerDemo {
     public String helloWorld() {
         System.out.println("controller控制层调用");
         return "Hello World" + paperService.addPaper();
-
     }
 
 
