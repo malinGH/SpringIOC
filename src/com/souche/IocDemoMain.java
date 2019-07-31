@@ -9,7 +9,11 @@ import org.souche.framework.ioc.context.ClassPathXmlApplicationContext;
  */
 public class IocDemoMain {
     /**
-     * @param args
+     * @Description:
+     * @Param1: args
+     * @return: void
+     * @Author: malin
+     * @Date: 2019-07-31
      */
     public static void main(String[] args) {
         // 实例化一个Spring容器

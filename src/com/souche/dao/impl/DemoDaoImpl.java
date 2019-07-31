@@ -1,18 +1,14 @@
 package com.souche.dao.impl;
 
+import com.souche.dao.DemoDao;
 import org.souche.framework.ioc.annoation.Repository;
 
-import com.souche.dao.PaperDAO;
-
 @Repository
-public class PaperDAOImpl implements PaperDAO {
+public class DemoDaoImpl implements DemoDao {
 
-    public PaperDAOImpl() {
-        System.out.println("dao instance");
-    }
 
     @Override
-    public String addPaper() {
+    public String add() {
         System.out.println("添加示例操作");
         return "dao 操作执行";
     }

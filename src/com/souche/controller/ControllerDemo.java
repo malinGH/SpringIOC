@@ -1,6 +1,6 @@
 package com.souche.controller;
 
-import com.souche.service.PaperService;
+import com.souche.service.DemoService;
 import org.souche.framework.ioc.annoation.Autowired;
 import org.souche.framework.ioc.annoation.Controller;
 
@@ -15,11 +15,11 @@ import org.souche.framework.ioc.annoation.Controller;
 public class ControllerDemo {
 
     @Autowired
-    private PaperService paperService;
+    private DemoService demoService;
 
     public String helloWorld() {
         System.out.println("controller控制层调用");
-        return "Hello World" + paperService.addPaper();
+        return "操作结果返回值:Hello World" + demoService.add();
     }
 
 

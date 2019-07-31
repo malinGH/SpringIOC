@@ -3,7 +3,7 @@ package com.souche.service;
 /**
  * @author malin
  */
-public interface PaperService {
+public interface DemoService {
 
-	String addPaper();
+	String add();
 }

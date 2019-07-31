@@ -3,7 +3,7 @@ package com.souche.dao;
 /**
  * @author malin
  */
-public interface PaperDAO {
+public interface DemoDao {
 
-    String addPaper();
+    String add();
 }
