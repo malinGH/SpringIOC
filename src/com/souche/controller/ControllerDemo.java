@@ -17,9 +17,13 @@ public class ControllerDemo {
     @Autowired
     private DemoService demoService;
 
+    public ControllerDemo() {
+        System.out.println("初始化DemoControllerDemo");
+    }
+
     public String helloWorld() {
         System.out.println("controller控制层调用");
-        return "操作结果返回值:Hello World" + demoService.add();
+        return "操作结果返回值: " + demoService.add();
     }
 
 

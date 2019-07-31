@@ -6,6 +6,9 @@ import org.souche.framework.ioc.annoation.Repository;
 @Repository
 public class DemoDaoImpl implements DemoDao {
 
+    public DemoDaoImpl() {
+        System.out.println("初始化DemoDao");
+    }
 
     @Override
     public String add() {

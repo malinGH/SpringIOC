@@ -14,6 +14,10 @@ public class DemoServiceImpl implements DemoService {
     @Autowired
     private DemoDao dao;
 
+    public DemoServiceImpl() {
+        System.out.println("初始化DemoService");
+    }
+
     @Override
     public String add() {
         System.out.println("业务处理");
